@@ -1,10 +1,10 @@
 body { 
     padding-top:50px; 
-    background-color: #f2f0f1;
+    background-color: #002544;
 }
 
 .jumbotron    {  
-    background: #f4f8ef;
+    background: #002544;
     margin-bottom: 0;
 }
 
@@ -14,8 +14,9 @@ body {
 }
 
 .first-jumbo {
+  height: 100%;
   padding: 0;
-  background-color: #8bbf53;
+  background-color: #002544;
 }
 
 .first-container {
@@ -96,12 +97,12 @@ body {
 
 h1 {
   font-family: 'Akura', sans-serif;
-  color: #8bbf53;
+  color: #ECF6FF;
 }
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  color: #f4f8ef;
+  color: #ECF6FF;
   font-weight: 100;
   font-size: 40px;
   text-align: center;
