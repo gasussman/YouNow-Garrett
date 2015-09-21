@@ -3,6 +3,38 @@ body {
     background-color: #002544;
 }
 
+@font-face {
+    font-family: "Akura";
+    src: url("/fonts/AkuraPopo.otf") format("opentype");
+}
+
+h1 {
+  font-family: 'Akura', sans-serif;
+  color: #ECF6FF !important;
+  font-size: 150px !important;
+  text-align: center;
+  vertical-align: text-top;
+  margin-top: 20%;
+  margin-bottom: -20px;
+  padding-bottom: 0;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: #ECF6FF;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: text-top;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
 .jumbotron    {  
     background: #002544;
     margin-bottom: 0;
@@ -14,40 +46,10 @@ body {
   background-color: #002544;
 }
 
-h1 {
-  font-family: 'Akura', sans-serif;
-  color: #ECF6FF;
-  font-size: 80px;
-  text-align: center;
-}
-
-h4 {
-  font-family: 'Open Sans', sans-serif;
-  color: #ECF6FF;
-  font-weight: 100;
-  font-size: 40px;
-  text-align: center;
-  vertical-align: text-top;
-  margin-top: 25%;
-  margin-bottom: 10px;
-}
-
-p {
-  font-family: 'Open Sans';
-  font-weight: 300;
-}
-
-.navbar-brand {
-  padding-top: 5px;
-}
-
-.navbar-inverse {
-  background-color: #333;
-}
-
-
-@font-face {
-    font-family: "Akura";
-    src: url("/fonts/AkuraPopo.otf") format("opentype");
+.profile img {
+  height: 500px !important;
+  position: fixed;
+  left: 5%;
+  bottom:0;
 }
 
