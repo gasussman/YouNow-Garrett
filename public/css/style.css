@@ -8,96 +8,17 @@ body {
     margin-bottom: 0;
 }
 
-#intro {
-  width: 115%; 
-  height: 110%;
-}
-
 .first-jumbo {
   height: 100%;
   padding: 0;
   background-color: #002544;
 }
 
-.first-container {
-  padding: 0;
-  margin: 0 !important;
-}
-
-.middle-jumbo {
-  background: #f4f8ef;
-}
-
-.middle-jumbo p {
-  color: #fff;
-}
-
-.middle-jumbo h1 {
-  color: #8bbf53;
-}
-
-.experience {
-  height: 175px;
-  width: 175px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.exp {
-  border: none;
-  background-color: #f2f0f1;
-}
-
-.banner {
-  background-color: #8bbf53;
-  
-  
-}
-
-.vision {
-  background-color: #f4f8ef;
-}
-
-.vision2 {
-  height: 150px;
-  width: 150px;
-  margin-top: 50px;
-  margin-bottom: 75px;
-}
-
-.vision3 {
-  border: none;
-  background-color: #f4f8ef;
-}
-
-.carousel-control {
-  background-image: none !important;
-}
-
-.carousel-indicators li {
-  border: 1px solid #8bbf53;
-}
-
-.carousel-indicators .active {
-  background-color: #8bbf53
-}
-
-.glyphicon-chevron-left {
-  color: #8bbf53;
-}
-
-.glyphicon-chevron-right {
-  color: #8bbf53;
-}
-
-.btn {
-  background-color: #8bbf53;
-  border: #8bbf53;
-}
-
 h1 {
   font-family: 'Akura', sans-serif;
   color: #ECF6FF;
+  font-size: 80px;
+  text-align: center;
 }
 
 h4 {
@@ -107,7 +28,7 @@ h4 {
   font-size: 40px;
   text-align: center;
   vertical-align: text-top;
-  margin-top: 10px;
+  margin-top: 25%;
   margin-bottom: 10px;
 }
 
@@ -124,47 +45,6 @@ p {
   background-color: #333;
 }
 
-img:hover
-{
-    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
-    -webkit-transform: scale(1.1);
-    outline:none;
-}
-
-button:focus {
-  outline: none;
-}
-
-img
-{
-    filter: none;
-    -webkit-filter: none;
-    -webkit-transition: all .25s ease-in-out;
-    outline:none;
-}
-
-.modal {
-  width: 100%;
-}
-
-.close {
-  color: #f4f8ef;
-  opacity: 1;
-  top: 5px;
-  right: 5px;
-}
-
-.modal-content {
-  height: 600px;
-  background-color: #8bbf53;
-}
-
-.modal-header {
-  border-bottom: none;
-  padding-bottom: 5px;
-}
 
 @font-face {
     font-family: "Akura";
